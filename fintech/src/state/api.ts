@@ -10,7 +10,7 @@ import {
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://fintechserver.up.railway.app/",
+    baseUrl: "/api/",
   }),
   reducerPath: "main",
   tagTypes: ["Kpis", "Products", "Transactions"],
